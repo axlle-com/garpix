@@ -7,10 +7,11 @@
     use Illuminate\Foundation\Auth\User as Authenticatable;
     use Illuminate\Notifications\Notifiable;
     use Illuminate\Support\Facades\Storage;
+    use Laravel\Passport\HasApiTokens;
 
     class User extends Authenticatable
     {
-        use Notifiable;
+        use HasApiTokens,Notifiable;
 
         public const IS_BANNED = 1;
         public const IS_ACTIVE = 0;

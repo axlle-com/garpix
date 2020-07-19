@@ -12,6 +12,24 @@
     line-height: 1 !important;
     border-radius: 0.2rem !important;
 }
+.in-basket {
+    background-color: #25db05;
+    border-color: #25db05;
+}
+.in-basket:hover,.in-basket:focus {
+    background-color: #1dbf00;
+    border-color: #1dbf00;
+}
+.product-basket-mini{
+    display: flex;
+    justify-content: space-between;
+}
+.order-basket{
+    background: #f5faff;
+    border: 1px solid #c3cedb;
+    padding: 20px;
+    margin-bottom: 30px;
+}
 /********** scroll ***********/
 *::-webkit-scrollbar {
     width: 8px !important;

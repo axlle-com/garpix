@@ -16,6 +16,11 @@
         $trail->push('Вход', route('login.form'));
     });
 
+    Breadcrumbs::for('order', function ($trail) {
+        $trail->parent('home');
+        $trail->push('Корзина', route('order'));
+    });
+
     Breadcrumbs::for('register', function ($trail) {
         $trail->parent('home');
         $trail->push('Регистрация', route('register.form'));

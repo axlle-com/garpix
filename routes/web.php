@@ -18,10 +18,16 @@ use Illuminate\Support\Facades\Route;
     Route::post('/sort', 'AjaxController@sort');
     Route::post('/basket/{product_id}', 'AjaxController@basket');
 
+    Route::resource('api-basket', 'BasketController');
+
+
     Route::group(['middleware'	=>	'auth'], function(){
         Route::get('/profile', 'ProfileController@index')->name('profile.show');
         Route::post('/profile', 'ProfileController@store')->name('profile.store');
         Route::get('/logout', 'AuthController@logout')->name('logout');
+        Route::get('/order', 'OrderController@index')->name('order');
+        Route::get('/order-store', 'OrderController@store')->name('order.store');
+        Route::post('/order-basket/{product_id}', 'AjaxController@orderBasket');
     });
 
     Route::group(['middleware'	=>	'guest'], function(){

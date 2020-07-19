@@ -7,6 +7,10 @@ use Illuminate\Support\Facades\DB;
 
 class Helper
 {
+    public static function getPrice($price)
+    {
+        return number_format($price,2,'.',' ');
+    }
     public static function getResponseServer(string $url):bool
     {
         $header = '';

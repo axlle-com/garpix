@@ -23,7 +23,7 @@ class CreateUsersTable extends Migration
             $table->integer('status')->nullable()->default(0);
             $table->string('avatar')->nullable();
             $table->rememberToken();
-            $table->integer('created_at',11)->unsigned();
+            $table->integer('created_at')->unsigned();
             $table->integer('updated_at')->unsigned();
         });
     }

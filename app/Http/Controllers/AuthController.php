@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Basket;
 use App\components\Helper;
 use App\User;
 use App\Providers\RouteServiceProvider;
@@ -47,6 +48,8 @@ class AuthController extends Controller
     		'password'	=>	$request->get('password')
     	]))
     	{
+
+    	    Basket::toggleType(Auth::user()->id);
     		return redirect(RouteServiceProvider::HOME);
     	}
 

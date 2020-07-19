@@ -52,223 +52,38 @@
                                         </a>
                                     </li>
                                     <li class="dropdown dropdown-mega dropdown-mega-signin ml-lg-3">
-                                        <a class="dropdown-item pl-lg-4" href="#">Корзина</a>
-                                        <ul class="dropdown-menu">
-                                            <li>
-                                                <div class="dropdown-mega-content">
-                                                    <div class="row">
-                                                        <div class="col basket-top">
-                                                            <ul class="recent-comments-list">
-                                                                <li class="comment">
-                                                                    <div class="comment-wrap clearfix">
-                                                                        <div class="comment-avatar">
-                                                                            <img src="img/team/t3.png" class="avatar" height="100" width="100" />
-                                                                        </div>
-                                                                        <div class="comment-content">
-                                                                            <div class="comment-body">
-                                                                                <a href="blog-standard-post.html#comments">
-                                                                                    <p>Praesent eros mauris dolor</p>
-                                                                                </a>
-                                                                            </div>
-                                                                            <div class="comment-meta">
-                                                                                <span class="comment-author">Vertex</span> <span class="comment-date">20 hours ago</span>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </li>
-                                                                <li class="comment">
-                                                                    <div class="comment-wrap clearfix">
-                                                                        <div class="comment-avatar">
-                                                                            <img src="img/team/t5.png" class="avatar" height="100" width="100" />
-                                                                        </div>
-                                                                        <div class="comment-content">
-                                                                            <div class="comment-body">
-                                                                                <a href="blog-standard-post.html#comments">
-                                                                                    <p>Omnis iste natus error sit dolor </p>
-                                                                                </a>
-                                                                            </div>
-                                                                            <div class="comment-meta">
-                                                                                <span class="comment-author">Guest</span> <span class="comment-date">5 hours ago</span>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </li>
-                                                                <li class="comment">
-                                                                    <div class="comment-wrap clearfix">
-                                                                        <div class="comment-avatar">
-                                                                            <img src="img/team/t4.png" class="avatar" height="100" width="100" />
-                                                                        </div>
-                                                                        <div class="comment-content">
-                                                                            <div class="comment-body">
-                                                                                <a href="blog-standard-post.html#comments">
-                                                                                    <p>Sed tellus ante aliquam eget</p>
-                                                                                </a>
-                                                                            </div>
-                                                                            <div class="comment-meta">
-                                                                                <span class="comment-author">Admin</span> <span class="comment-date">2 days ago</span>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </li>
-                                                                <li class="comment">
-                                                                    <div class="comment-wrap clearfix">
-                                                                        <div class="comment-avatar">
-                                                                            <img src="img/team/t4.png" class="avatar" height="100" width="100" />
-                                                                        </div>
-                                                                        <div class="comment-content">
-                                                                            <div class="comment-body">
-                                                                                <a href="blog-standard-post.html#comments">
-                                                                                    <p>Sed tellus ante aliquam eget</p>
-                                                                                </a>
-                                                                            </div>
-                                                                            <div class="comment-meta">
-                                                                                <span class="comment-author">Admin</span> <span class="comment-date">2 days ago</span>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </li>
-                                                                <li class="comment">
-                                                                    <div class="comment-wrap clearfix">
-                                                                        <div class="comment-avatar">
-                                                                            <img src="img/team/t4.png" class="avatar" height="100" width="100" />
-                                                                        </div>
-                                                                        <div class="comment-content">
-                                                                            <div class="comment-body">
-                                                                                <a href="blog-standard-post.html#comments">
-                                                                                    <p>Sed tellus ante aliquam eget</p>
-                                                                                </a>
-                                                                            </div>
-                                                                            <div class="comment-meta">
-                                                                                <span class="comment-author">Admin</span> <span class="comment-date">2 days ago</span>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </li>
-                                                                <li class="comment">
-                                                                    <div class="comment-wrap clearfix">
-                                                                        <div class="comment-avatar">
-                                                                            <img src="img/team/t4.png" class="avatar" height="100" width="100" />
-                                                                        </div>
-                                                                        <div class="comment-content">
-                                                                            <div class="comment-body">
-                                                                                <a href="blog-standard-post.html#comments">
-                                                                                    <p>Sed tellus ante aliquam eget</p>
-                                                                                </a>
-                                                                            </div>
-                                                                            <div class="comment-meta">
-                                                                                <span class="comment-author">Admin</span> <span class="comment-date">2 days ago</span>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </li>
-                                                                <li class="comment">
-                                                                    <div class="comment-wrap clearfix">
-                                                                        <div class="comment-avatar">
-                                                                            <img src="img/team/t4.png" class="avatar" height="100" width="100" />
-                                                                        </div>
-                                                                        <div class="comment-content">
-                                                                            <div class="comment-body">
-                                                                                <a href="blog-standard-post.html#comments">
-                                                                                    <p>Sed tellus ante aliquam eget</p>
-                                                                                </a>
-                                                                            </div>
-                                                                            <div class="comment-meta">
-                                                                                <span class="comment-author">Admin</span> <span class="comment-date">2 days ago</span>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </li>
-                                                                <li class="comment">
-                                                                    <div class="comment-wrap clearfix">
-                                                                        <div class="comment-avatar">
-                                                                            <img src="img/team/t4.png" class="avatar" height="100" width="100" />
-                                                                        </div>
-                                                                        <div class="comment-content">
-                                                                            <div class="comment-body">
-                                                                                <a href="blog-standard-post.html#comments">
-                                                                                    <p>Sed tellus ante aliquam eget</p>
-                                                                                </a>
-                                                                            </div>
-                                                                            <div class="comment-meta">
-                                                                                <span class="comment-author">Admin</span> <span class="comment-date">2 days ago</span>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </li>
-                                                                <li class="comment">
-                                                                    <div class="comment-wrap clearfix">
-                                                                        <div class="comment-avatar">
-                                                                            <img src="img/team/t4.png" class="avatar" height="100" width="100" />
-                                                                        </div>
-                                                                        <div class="comment-content">
-                                                                            <div class="comment-body">
-                                                                                <a href="blog-standard-post.html#comments">
-                                                                                    <p>Sed tellus ante aliquam eget</p>
-                                                                                </a>
-                                                                            </div>
-                                                                            <div class="comment-meta">
-                                                                                <span class="comment-author">Admin</span> <span class="comment-date">2 days ago</span>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </li>
-                                                                <li class="comment">
-                                                                    <div class="comment-wrap clearfix">
-                                                                        <div class="comment-avatar">
-                                                                            <img src="img/team/t4.png" class="avatar" height="100" width="100" />
-                                                                        </div>
-                                                                        <div class="comment-content">
-                                                                            <div class="comment-body">
-                                                                                <a href="blog-standard-post.html#comments">
-                                                                                    <p>Sed tellus ante aliquam eget</p>
-                                                                                </a>
-                                                                            </div>
-                                                                            <div class="comment-meta">
-                                                                                <span class="comment-author">Admin</span> <span class="comment-date">2 days ago</span>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </li>
-                                                                <li class="comment">
-                                                                    <div class="comment-wrap clearfix">
-                                                                        <div class="comment-avatar">
-                                                                            <img src="img/team/t4.png" class="avatar" height="100" width="100" />
-                                                                        </div>
-                                                                        <div class="comment-content">
-                                                                            <div class="comment-body">
-                                                                                <a href="blog-standard-post.html#comments">
-                                                                                    <p>Sed tellus ante aliquam eget</p>
-                                                                                </a>
-                                                                            </div>
-                                                                            <div class="comment-meta">
-                                                                                <span class="comment-author">Admin</span> <span class="comment-date">2 days ago</span>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </li>
-                                                                <li class="comment">
-                                                                    <div class="comment-wrap clearfix">
-                                                                        <div class="comment-avatar">
-                                                                            <img src="img/team/t4.png" class="avatar" height="100" width="100" />
-                                                                        </div>
-                                                                        <div class="comment-content">
-                                                                            <div class="comment-body">
-                                                                                <a href="blog-standard-post.html#comments">
-                                                                                    <p>Sed tellus ante aliquam eget</p>
-                                                                                </a>
-                                                                            </div>
-                                                                            <div class="comment-meta">
-                                                                                <span class="comment-author">Admin</span> <span class="comment-date">2 days ago</span>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </li>
-                                                            </ul>
+                                        @if(URL::current() != route('order'))
+                                            <a class="dropdown-item pl-lg-4" href="#">Корзина</a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <div class="dropdown-mega-content">
+                                                        <div class="row">
+                                                            <div class="col basket-top js-basket-mini-inner">
+                                                                <?php
+                                                                $basketItem = \App\Basket::getBasket();
+                                                                $totalPrice = 0;
+                                                                ?>
+                                                                @if(count($basketItem))
+                                                                    <ul class="v-list-v2">
+                                                                        @foreach($basketItem as $value)
+                                                                            <li class="product-basket-mini">
+                                                                                <span class="product-title">{{ $value['title'] }}</span>
+                                                                                <span class="product-title">{{ \App\components\Helper::getPrice($value['price']) }}</span>
+                                                                            </li>
+                                                                            <?php $totalPrice += $value['price']?>
+                                                                        @endforeach
+                                                                    </ul>
+                                                                    <span>Итого: {{ \App\components\Helper::getPrice($totalPrice) }}</span>
+                                                                    <a href="{{ route('order') }}" class="btn btn-sm btn-outline-success">Перейти в корзину</a>
+                                                                @else
+                                                                    <span>Ваша корзина пуста</span>
+                                                                @endif
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                            </li>
-                                        </ul>
+                                                </li>
+                                            </ul>
+                                        @endif
                                     </li>
                                     @if(Auth::check())
                                         <li>

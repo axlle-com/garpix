@@ -44,8 +44,16 @@
                                     @foreach($product as $item)
                                         <tr>
                                             <td>{{ $item->title }}</td>
-                                            <td>{{ $item->price }}</td>
-                                            <td><a href="/basket/{{$item->id}}" type="button" class="btn btn-primary btn-sm js-set-basket">В корзину</a></td>
+                                            <td>
+                                                {{ \App\components\Helper::getPrice($item->price) }}
+                                            </td>
+                                            <td>
+                                                @if(array_key_exists($item->id,$basket))
+                                                    <a href="/basket/{{$item->id}}" type="button" class="btn btn-primary btn-sm in-basket js-set-basket">Удалить</a>
+                                                @else
+                                                    <a href="/basket/{{$item->id}}" type="button" class="btn btn-primary btn-sm js-set-basket">В корзину</a>
+                                                @endif
+                                            </td>
                                         </tr>
                                     @endforeach
                                 @else
