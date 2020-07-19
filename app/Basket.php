@@ -8,11 +8,6 @@ use Illuminate\Support\Facades\Auth;
 
 class Basket extends Model
 {
-    public function __construct(array $attributes = [])
-    {
-        parent::__construct($attributes);
-    }
-
     public const STATUS_WAIT = 0;
 
     protected $table = 'basket';
